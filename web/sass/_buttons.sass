@@ -1,0 +1,48 @@
+$btn-color-bg: #e7434e
+$btn-color-bg-hover: darken($btn-color-bg, 5%)
+$btn-color-bg-hover-dest: lighten($btn-color-bg, 5%)
+
+.btn-main
+  position: relative
+  color: #ffffff
+  font: 700 14px/16px Raleway
+  border: none
+  border-radius: 5px
+  background-color: $btn-color-bg
+  padding: 0
+  margin: 0
+  cursor: pointer
+  &:hover
+    background-color: $btn-color-bg-hover
+  &::before
+    position: absolute
+    content: ""
+    top: 50%
+    transform: translateY(-50%)
+    width: 16px
+    height: 16px
+    background: url(../img/sailboat-kopia.png) no-repeat
+
+.btn-destination,
+.btn-own-boat
+  border-radius: 5px
+  padding: 25px 40px
+  border: 1px solid rgba(38, 38, 38, 0.3)
+  background-color: rgba(113, 113, 113, 0)
+  color: #343434
+  font: 700 14px/16px  Raleway
+  letter-spacing: 1px
+  cursor: pointer
+  &:hover
+    color: #fff
+    border-color: $btn-color-bg-hover-dest
+    background-color: $btn-color-bg-hover-dest
+.btn-own-boat
+  padding: 25px 50px
+
+.outline-none
+  outline: none
+  &:hover,
+  &:focus,
+  &:active
+    outline: none

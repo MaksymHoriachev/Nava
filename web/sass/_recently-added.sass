@@ -1,0 +1,84 @@
+.section-recently-added
+  position: relative
+  padding-top: 100px
+  padding-bottom: 100px
+  .container
+    .row
+      .recently-added-content
+        h2
+          margin-bottom: 30px
+          color: #343435
+          font: 400 30px/28px Raleway
+        p
+          color: #717171
+          font: 400 16px/22px "Open Sans"
+          margin-bottom: 90px
+        .recently-added-boats
+          display: flex
+          flex-wrap: wrap
+          align-items: center
+          margin-bottom: 125px
+          li
+            flex-basis: 50%
+            padding: 15px
+            .recently-added-inner
+              position: relative
+              border-radius: 5px
+              overflow: hidden
+              &::after
+                position: absolute
+                content: ""
+                top: 40%
+                left: 0
+                right: 0
+                bottom: 0
+                background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 100%)
+                opacity: 0.6
+                z-index: 1
+              img
+                width: 100%
+              .btn-boats
+                position: absolute
+                top: 25px
+                left: 25px
+                padding: 10px
+                &::before
+                  display: none
+              .boats-caption
+                position: absolute
+                left: 25px
+                bottom: 20px
+                z-index: 10
+                h4
+                  color: #fff
+                  font: 400 30px/32px Raleway
+                  margin-bottom: 10px
+                span
+                  position: relative
+                  display: inline-block
+                  color: #fff
+                  font: 400 16px/18px "Open Sans"
+                .boats-country
+                  margin-left: 20px
+                  &::before
+                    display: inline-block
+                    content: ""
+                    position: absolute
+                    top: 40%
+                    transform: translateY(-50%)
+                    left: -20px
+                    width: 13px
+                    height: 17px
+                    background: url(../img/map-marker--1-.png)
+                .berth
+                  margin-left: 45px
+                  &::before
+                    display: inline-block
+                    content: ""
+                    position: absolute
+                    top: 48%
+                    transform: translateY(-50%)
+                    left: -30px
+                    width: 22px
+                    height: 14px
+                    background: url(../img/account-multiple--1-.png)

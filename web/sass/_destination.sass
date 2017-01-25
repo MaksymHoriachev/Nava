@@ -1,0 +1,91 @@
+.section-destination
+  padding-bottom: 80px
+  .container
+    .row
+      .numbers-section
+        margin-top: -70px
+        padding-top: 30px
+        padding-bottom: 30px
+        background-color: #fff
+        border-radius: 5px
+        box-shadow: 0 0 30px rgba(52, 52, 52, 0.15)
+        .numbers-section-list
+          display: flex
+          align-items: center
+          li
+            flex-basis: 25%
+            text-align: center
+            padding-top: 10px
+            padding-bottom: 10px
+            border-right: 1px solid rgba(#717171, .3)
+            &:last-child
+              border-right: none
+            span
+              color: #343434
+              font: 700 30px/22px "Open Sans"
+            p
+              margin-top: 20px
+              margin-bottom: 0
+              font: 400 18px/22px "Open Sans"
+      .destination-content
+        padding-top: 100px
+        h3
+          color: #343435
+          font: 400 30px/28px Raleway
+          margin-bottom: 30px
+        p
+          color: #717171
+          font: 400 16px/22px "Open Sans"
+          margin-bottom: 80px
+        .country-section
+          display: flex
+          flex-wrap: wrap
+          align-items: center
+          margin-bottom: 130px
+          .country-list
+            flex-basis: 33.33%
+            padding: 15px
+            &:first-child
+              flex-basis: 66.66%
+            .country-inner
+              position: relative
+              border-radius: 5px
+              overflow: hidden
+              &::after
+                display: block
+                content: ""
+                position: absolute
+                top: 40%
+                left: 0
+                right: 0
+                bottom: 0
+                background: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 100%)
+                opacity: 0.6
+                z-index: 1
+                border-radius: 0 0 5px 5px
+              img
+                width: 100%
+              .btn-country
+                position: absolute
+                top: 25px
+                left: 25px
+                padding: 10px 15px 10px 40px
+                font: 700 16px/22px "Open Sans"
+                &::before
+                  left: 15px
+              .country-caption
+                position: absolute
+                left: 25px
+                bottom: 25px
+                z-index: 10
+                h4, p
+                  color: #fff
+                  font-family: Raleway
+                  font-weight: 400
+                h4
+                  font-size: 30px
+                  line-height: 40px
+                p
+                  font-size: 20px
+                  line-height: 30px
+                  margin-bottom: 0

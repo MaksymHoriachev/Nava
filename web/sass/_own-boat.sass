@@ -1,0 +1,34 @@
+.section-own-boat
+  position: relative
+  height: 600px
+  overflow: hidden
+  .own-boat-bg
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translateX(-50%)
+    min-width: 100%
+  span::after
+    position: absolute
+    content: ""
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    background-color: rgba(0, 0, 0, .4)
+  .container
+    .row
+      .own-boat-content
+        padding-top: 190px
+        h2
+          color: #f9fafe
+          font: 700 72px/60px Raleway
+          margin-bottom: 30px
+        p
+          color: #f9fafe
+          font: 400 30px/22px "Open Sans"
+          margin-bottom: 90px
+        .btn-ovn-boat
+          padding: 25px 45px
+          &::before
+            display: none
