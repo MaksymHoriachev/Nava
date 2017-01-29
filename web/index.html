@@ -37,6 +37,7 @@
     <!-- top section -->
     <section class="section-top">
         <video class="video-top-bg" src='video/MVI_1272.mp4' autoplay="autoplay" loop="loop" muted="muted"></video>
+        <span></span>
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 text-center reserve-section">
@@ -132,8 +133,48 @@
                                 </div>
                             </div>
                         </li>
+                        <li class="country-list">
+                            <div class="country-inner">
+                                <img src="img/country/3q7gjtvirn.png" alt="ibiza">
+                                <button type="button" class="btn-main btn-country outline-none">621</button>
+                                <div class="country-caption">
+                                    <h4>Ibiza</h4>
+                                    <p>Spain</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="country-list">
+                            <div class="country-inner">
+                                <img src="img/country/sea-mountains-bay-boats.png" alt="spain">
+                                <button type="button" class="btn-main btn-country outline-none">543</button>
+                                <div class="country-caption">
+                                    <h4>Palma de Mallorca</h4>
+                                    <p>Spain</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="country-list">
+                            <div class="country-inner">
+                                <img src="img/country/f6d060c8b9.png" alt="italy">
+                                <button type="button" class="btn-main btn-country outline-none">495</button>
+                                <div class="country-caption">
+                                    <h4>Portofino</h4>
+                                    <p>Italy</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="country-list">
+                            <div class="country-inner">
+                                <img src="img/country/c5eb3c6fb6.png" alt="monaco">
+                                <button type="button" class="btn-main btn-country outline-none">402</button>
+                                <div class="country-caption">
+                                    <h4>Port Hercules</h4>
+                                    <p>Monaco</p>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
-                    <button type="button" class="btn-destination text-uppercase outline-none">EXPLORE MORE DESTINATIONS</button>
+                    <button type="button" class="btn-destination text-uppercase outline-none" id="btn-destination">EXPLORE MORE DESTINATIONS</button>
                 </div>
             </div>
         </div>
@@ -204,8 +245,52 @@
                                 </div>
                             </div>
                         </li>
+                        <li class="boats-list">
+                            <div class="recently-added-inner">
+                                <img src="img/boats/crynoline-1-pic1.png" alt="delphia">
+                                <button type="button" class="btn-main btn-boats outline-none">€580 / day</button>
+                                <div class="boats-caption">
+                                    <h4>Delphia 47</h4>
+                                    <span class="boats-country">Gdańsk, Poland</span>
+                                    <span class="berth">8 Berths</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="boats-list">
+                            <div class="recently-added-inner">
+                                <img src="img/boats/20048-3300983.png" alt="Sense">
+                                <button type="button" class="btn-main btn-boats outline-none">€950 / day</button>
+                                <div class="boats-caption">
+                                    <h4>Sense 55</h4>
+                                    <span class="boats-country">Portofino, Italy</span>
+                                    <span class="berth">12 Berths</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="boats-list">
+                            <div class="recently-added-inner">
+                                <img src="img/boats/cr51-exterior-1.png" alt="Crusier">
+                                <button type="button" class="btn-main btn-boats outline-none">€820 / day</button>
+                                <div class="boats-caption">
+                                    <h4>Crusier 51</h4>
+                                    <span class="boats-country">Palma de Mallorca, Spain</span>
+                                    <span class="berth">10 Berths</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="boats-list">
+                            <div class="recently-added-inner">
+                                <img src="img/boats/cruiser41s.png" alt="Crusier 41S">
+                                <button type="button" class="btn-main btn-boats outline-none">€400 / day</button>
+                                <div class="boats-caption">
+                                    <h4>Crusier 41S</h4>
+                                    <span class="boats-country">Lisbon, Portugal</span>
+                                    <span class="berth">8 Berths</span>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
-                    <button type="button" class="btn-own-boat  text-uppercase outline-none">LOAD MORE BOATS</button>
+                    <button type="button" class="btn-own-boat  text-uppercase outline-none" id="btn-boats">LOAD MORE BOATS</button>
                 </div>
             </div>
         </div>
@@ -238,7 +323,7 @@
                         <h4 class="text-uppercase">SUBSCRIBE TO OUR NEWSLETTER</h4>
                         <form action="" method="post">
                             <div class="footer-form">
-                                <input type="text" class="footer-form-input" id="footer-input" placeholder="Your email adress">
+                                <input type="text" class="footer-form-input outline-none" id="footer-input" placeholder="Your email adress">
                                 <button type="button" class="btn-main footer-subscribe outline-none" id="footer-subscribe">SUBSCRIBE</button>
                             </div>
                             <ul class="footer-social">
@@ -272,6 +357,7 @@
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="../bower_components/tether/dist/js/tether.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../web/js/main.js"></script>
