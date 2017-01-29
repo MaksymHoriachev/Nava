@@ -17,26 +17,34 @@
           display: flex
           flex-wrap: wrap
           align-items: center
-          margin-bottom: 125px
-          li
+          margin-bottom: 100px
+          .boats-list
+            display: none
             flex-basis: 50%
             padding: 15px
             .recently-added-inner
               position: relative
               border-radius: 5px
               overflow: hidden
+              &:hover
+                &::after
+                  top: 40%
+                img
+                  transform: scale(1.1)
               &::after
                 position: absolute
                 content: ""
-                top: 40%
+                top: 70%
                 left: 0
                 right: 0
                 bottom: 0
                 background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 100%)
                 opacity: 0.6
                 z-index: 1
+                transition: all .3s
               img
                 width: 100%
+                transition: all .3s
               .btn-boats
                 position: absolute
                 top: 25px

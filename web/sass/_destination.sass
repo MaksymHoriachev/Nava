@@ -41,8 +41,9 @@
           display: flex
           flex-wrap: wrap
           align-items: center
-          margin-bottom: 130px
+          margin-bottom: 100px
           .country-list
+            display: none
             flex-basis: 33.33%
             padding: 15px
             &:first-child
@@ -51,20 +52,27 @@
               position: relative
               border-radius: 5px
               overflow: hidden
+              &:hover
+                &::after
+                  top: 40%
+                img
+                  transform: scale(1.1)
               &::after
                 display: block
                 content: ""
                 position: absolute
-                top: 40%
+                top: 70%
                 left: 0
                 right: 0
                 bottom: 0
                 background: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 100%)
-                opacity: 0.6
+                opacity: 0.7
                 z-index: 1
                 border-radius: 0 0 5px 5px
+                transition: all .3s
               img
                 width: 100%
+                transition: all .3s
               .btn-country
                 position: absolute
                 top: 25px

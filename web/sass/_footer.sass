@@ -1,0 +1,75 @@
+.footer-main
+  position: relative
+  padding-top: 60px
+  padding-bottom: 30px
+  background-color: #404040
+  border-top: 6px dashed #e7434e
+  .container
+    .row
+      .footer-content
+        display: flex
+        flex-wrap: wrap
+        align-items: flex-start
+        div
+          padding-right: 50px
+          margin-bottom: 40px
+          h4
+            color: #fff
+            font: 700 14px/22px Raleway
+            margin-bottom: 30px
+          .footer-list
+            li
+              color: #fff
+              font: 400 14px/34px "Open Sans"
+              &:hover
+                color: $btn-color-bg
+                cursor: pointer
+        .top-locations,
+        .featured-boats
+          flex-basis: 18%
+        .contact-us
+          padding-right: 0
+          flex-basis: 16%
+        .subscribe-footer
+          flex-basis: 48%
+          form
+            padding-bottom: 35px
+            .footer-form
+              background-color: #fff
+              display: flex
+              justify-content: space-between
+              padding-right: 0
+              border-radius: 5px
+              .footer-form-input
+                flex-basis: 70%
+                border: none
+                background-color: transparent
+                padding: 15px 20px
+                color: #717171
+                font: 400 14px/22px "Open Sans"
+              .footer-subscribe
+                flex-basis: 30%
+                padding: 15px 35px
+                border-radius:  0 5px 5px 0
+                &::before
+                  display: none
+            .footer-social
+              li
+                display: inline-block
+                margin-right: 15px
+                a
+                  display: inline-block
+                  position: relative
+                  width: 44px
+                  height: 44px
+                  border-radius: 50%
+                  background-color: #717171
+                  &:hover
+                    background-color: $btn-color-bg
+                  i
+                    position: absolute
+                    color: #fff
+                    top: 50%
+                    left: 50%
+                    transform: translate(-50%,-50%)
+
