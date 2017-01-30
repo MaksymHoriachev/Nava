@@ -83,7 +83,7 @@
                     <h3 class="text-uppercase">EXPLORE OUR TOP DESTINATIONS</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
                     <ul class="country-section text-left">
-                        <li class="country-list">
+                        <li class="country-list" data-toggle="modal" data-target="#figueira-da-foz-modal">
                             <div class="country-inner">
                                 <img src="img/country/photo-1452838157761-5f502d8ce474.png" alt="portugal">
                                 <button type="button" class="btn-main btn-country outline-none">730</button>
@@ -93,7 +93,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="country-list">
+                        <li class="country-list" data-toggle="modal" data-target="#ibiza-modal">
                             <div class="country-inner">
                                 <img src="img/country/3q7gjtvirn.png" alt="ibiza">
                                 <button type="button" class="btn-main btn-country outline-none">621</button>
@@ -103,7 +103,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="country-list">
+                        <li class="country-list" data-toggle="modal" data-target="#palma-de-mallorca-modal">
                             <div class="country-inner">
                                 <img src="img/country/sea-mountains-bay-boats.png" alt="spain">
                                 <button type="button" class="btn-main btn-country outline-none">543</button>
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="country-list">
+                        <li class="country-list" data-toggle="modal" data-target="#portofino-modal">
                             <div class="country-inner">
                                 <img src="img/country/f6d060c8b9.png" alt="italy">
                                 <button type="button" class="btn-main btn-country outline-none">495</button>
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="country-list">
+                        <li class="country-list" data-toggle="modal" data-target="#port-hercules-modal">
                             <div class="country-inner">
                                 <img src="img/country/c5eb3c6fb6.png" alt="monaco">
                                 <button type="button" class="btn-main btn-country outline-none">402</button>
@@ -188,7 +188,7 @@
                 <div class="col-12 own-boat-content text-center">
                     <h2 class="text-uppercase">HAVE YOUR OWN BOAT?</h2>
                     <p class="text-uppercase">navigare necesse est, vivere non est necesse</p>
-                    <button type="button" class="btn-main text-uppercase outline-none btn-ovn-boat">Make money with your boat</button>
+                    <button type="button" class="btn-main text-uppercase outline-none btn-ovn-boat" data-toggle="modal" data-target="#own-boat-modal">Make money with your boat</button>
                 </div>
             </div>
         </div>
@@ -354,6 +354,131 @@
             </div>
         </div>
     </footer>
+
+    <!-- modal -->
+    <!-- own boat modal -->
+    <div class="modal fade main-modal" id="own-boat-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog main-dialog" role="document">
+            <div class="modal-content main-content">
+                <div class="modal-header main-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body main-body">
+                    <h4 class="text-uppercase">HAVE YOUR OWN BOAT?</h4>
+                    <p class="text-uppercase">navigare necesse est, vivere non est necesse</p>
+                </div>
+                <div class="modal-footer main-footer">
+                    <button type="button" class="btn-main" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- country -->
+    <!-- figueira-da-foz modal -->
+    <div class="modal fade main-modal" id="figueira-da-foz-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog main-dialog" role="document">
+            <div class="modal-content main-content">
+                <div class="modal-header main-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body main-body">
+                    <h4>Figueira da Foz</h4>
+                    <p>Portugal</p>
+                    <img src="img/country/photo-1452838157761-5f502d8ce474.png" alt="Figueira da Foz">
+                </div>
+                <div class="modal-footer main-footer">
+                    <button type="button" class="btn-main" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ibiza modal -->
+    <div class="modal fade main-modal" id="ibiza-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog main-dialog" role="document">
+            <div class="modal-content main-content">
+                <div class="modal-header main-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body main-body">
+                    <h4>Ibiza</h4>
+                    <p>Spain</p>
+                    <img src="img/country/3q7gjtvirn.png" alt="Figueira da Foz">
+                </div>
+                <div class="modal-footer main-footer">
+                    <button type="button" class="btn-main" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- palma de mallorca modal -->
+    <div class="modal fade main-modal" id="palma-de-mallorca-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog main-dialog" role="document">
+            <div class="modal-content main-content">
+                <div class="modal-header main-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body main-body">
+                    <h4>Palma de Mallorca</h4>
+                    <p>Spain</p>
+                    <img src="img/country/sea-mountains-bay-boats.png" alt="Figueira da Foz">
+                </div>
+                <div class="modal-footer main-footer">
+                    <button type="button" class="btn-main" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portofino modal -->
+    <div class="modal fade main-modal" id="portofino-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog main-dialog" role="document">
+            <div class="modal-content main-content">
+                <div class="modal-header main-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body main-body">
+                    <h4>Portofino</h4>
+                    <p>Italy</p>
+                    <img src="img/country/f6d060c8b9.png" alt="Figueira da Foz">
+                </div>
+                <div class="modal-footer main-footer">
+                    <button type="button" class="btn-main" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- port hercules modal -->
+    <div class="modal fade main-modal" id="port-hercules-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog main-dialog" role="document">
+            <div class="modal-content main-content">
+                <div class="modal-header main-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body main-body">
+                    <h4>Port Hercules</h4>
+                    <p>Monaco</p>
+                    <img src="img/country/c5eb3c6fb6.png" alt="Figueira da Foz">
+                </div>
+                <div class="modal-footer main-footer">
+                    <button type="button" class="btn-main" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
